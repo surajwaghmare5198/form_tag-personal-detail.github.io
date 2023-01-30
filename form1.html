@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            background-color:rgb(94, 237, 237);
+
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>PERSONAL DETAIL</h1>
+    <form>
+        <label for="fname">Firstname</label>
+        <input type="text" name="fname" id="fname"> <br><br>
+
+        <label for="lname">Lastname</label>
+        <input type="text" name="lname" id="lname"> <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age"> <br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass"> <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"> <br><br>
+
+        <label for="gender">Gendar</label> &nbsp;
+
+        <label for="gender">male</label>
+        <input type="radio" name="gen1" id="male">
+
+        <label for="gender">female</label>
+        <input type="radio" name="gen1" id="female">
+
+        <label for="other">Other</label>
+        <input type="radio" name="gen1" id="other"> <br><br>
+
+        <label for="phone">contact</label>
+        <input type="number" maxlength="10" type="tel" name="phone" id="phone"> <br><br>
+
+        <h1>Educational Qualification</h1> <br>
+        <label for="degree">ENGINEERING</label>
+        <select name="degree" id="degree">
+            <label for="degree">ENGINEERING</label>
+            <option value="">--SELECT YOUR OPTION</option>
+            <option value="engineering">MECHANICAL engineering</option>
+            <option value="engineering">Civil engineering</option>
+            <option value="engineering">Computer engineering</option>
+            <option value="engineering">Electrical engineering</option>
+            <option value="engineering">ELECTRONIC AND TELECUMUNICATION</option>
+            <option value="engineering">CHEMICAL engineering</option>
+        </select>
+        <br><br>
+        <h2>HOBBIES</h2>
+        <label for="hobbies">swimming</label>
+        <input type="checkbox" name="swiming" id="swimming">
+
+        <label for="hobbies">dancing</label>
+        <input type="checkbox" name="dancing" id="dancing">
+
+        <label for="hobbies">playing cricket</label>
+        <input type="checkbox" name="pyaing cricket" id="playing cricket"> <br><br>
+
+        <h2>Address</h2> <br>
+        <!-- <label for="address">address </label> -->
+        <textarea name="address" cols="30" rows="10"></textarea> <br><br>
+
+        <label for="upload">Attach Resume</label>
+        <input type="file" name="upload" multiple id="upload"> <br><br>
+
+        <label for="submit">Submit</label>
+        <input type="submit" value="submit"> <br>
+        <label for="Reset">Reset</label>
+        <input type="reset" value="reset">
+
+    </form>
+    
+</body>
+</html>z
